@@ -1,0 +1,92 @@
+/* Home section */
+
+#home{
+    height:200px;
+}
+
+#home h1,p,button{
+    font-size: 15px;
+    padding: 10px 20px 0px 40px;
+}
+
+/* Navigation section */
+
+#navbar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    padding : 0px 20px 0px 20px;
+}
+
+/* Services section */
+
+#services-container::before{
+    margin-top:0px;
+}
+#services-container{
+    padding-top: 31px;;
+}
+
+#services{
+    margin:0px;
+    flex-direction: column;
+}
+
+
+#services.box{
+    margin:0px;
+}
+
+/* Clients Section */
+#clients-section
+{    
+    overflow: hidden;
+}
+
+/* #Clients-section */
+
+#skype{
+    padding-bottom:5px;
+    padding-left: 60px;
+}
+
+#microsoft{
+    padding-left:20px;
+}
+
+/*  Contact Section*/
+
+
+.contact::before{
+      height:111%;
+}
+
+.contact form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:50px;
+    font-size: 12px;
+    }
+
+.contact input[type=submit]{
+ display: inline;
+ margin-left:0px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size:6px;
+    position: fixed;
+    left: 0;
+    bottom: -108px;
+    width: 100%;
+ }
+
+
